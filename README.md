@@ -1,2 +1,3 @@
-# personal_page
-Personal page built using FastAPI and streamlit to show some projects I have work on.
+# Santiago Morales
+
+This is a personal project in order to review some concepts about Containers, Data Visualization and as an excuse to use FastAPI in a personal project.
