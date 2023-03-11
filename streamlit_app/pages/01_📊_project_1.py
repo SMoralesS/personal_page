@@ -1,6 +1,6 @@
 import plotly.graph_objects as go
 
-from utils import *
+from streamlit_app.utils.home_page import *
 
 st.set_page_config(
     page_title="Example page",

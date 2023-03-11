@@ -1,21 +1,24 @@
-from utils import *
+from streamlit_app.utils.home_page import *
 
 st.set_page_config(
     page_title="Home",
     page_icon="👋",
 )
 
-
 def main():
-    add_logo()
-    st.title("Santiago Morales")
-    st.subheader("Data Scientist - Physicist - Applied Mathemathician")
-    st.markdown(
-        """
-      This is a personal web page to exemplify some of my work as data scientist while allow me to train my abilities using streamlit and other tools.
-    """
-    )
+    import os
+    st.write(os.listdir())
+    home_page = HomePage()
+    home_page.add_logo()
+    home_page.add_signature()
+    home_page.add_intro()
+    text =  "<ul>\
+            <li>Coffee</li>\
+            <li>Tea</li>\
+            <li>Milk</li>\
+        </ul>" 
 
+    st.components.v1.components.html(text, width=200, height=200)
 
 if __name__ == "__main__":
     main()
