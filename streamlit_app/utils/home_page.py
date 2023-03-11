@@ -3,8 +3,8 @@ import streamlit as st
 
 
 class HomePage:
-    def __init__(self, data_url: str = './streamlit_app/utils/data.json') -> None:
-        with open(data_url, 'r') as data_file:
+    def __init__(self, data_path: str = './streamlit_app/utils/personal_data.json') -> None:
+        with open(data_path, 'r') as data_file:
             self.data = json.load(data_file)
 
     def add_logo(self):

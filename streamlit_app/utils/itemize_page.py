@@ -1,4 +1,9 @@
 import streamlit as st
+from typing import Union
+
+class ItemizePage:
+    def __init__(self, title: Union[str, None] = None):
+        self.title = title
 
 text =  "<ul>\
             <li>Coffee</li>\
