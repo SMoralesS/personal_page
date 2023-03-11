@@ -5,14 +5,14 @@ import streamlit as st
 class HomePage:
     def __init__(self, data_path: str = './streamlit_app/utils/personal_data.json') -> None:
         with open(data_path, 'r') as data_file:
-            self.data = json.load(data_file)
+            self.personal_data = json.load(data_file)
 
     def add_logo(self):
         st.markdown(
             f"""
             <style>
                 [data-testid="stSidebarNav"] {{
-                    background-image: url({self.data.get('logo_url', '')});
+                    background-image: url({self.personal_data.get('logo_url', '')});
                     background-repeat: no-repeat;
                     padding-top: 120px;
                     background-position: 70px 30px;
@@ -32,8 +32,8 @@ class HomePage:
         )
 
     def add_signature(self):
-        st.title(self.data.get('name', ''))
-        st.subheader(self.data.get('profession', ''))
+        st.title(self.personal_data.get('name', ''))
+        st.subheader(self.personal_data.get('profession', ''))
 
     def add_intro(self):
-        st.write(self.data.get('personal_description', ''))
+        st.write(self.personal_data.get('personal_description', ''))
