@@ -14,6 +14,7 @@ def main():
     experience_page.add_logo()
     st.title("Professional Experience")   
     experience_page.write_itemize_html()
+    experience_page.add_socials()
 
 if __name__ == "__main__":
     main()

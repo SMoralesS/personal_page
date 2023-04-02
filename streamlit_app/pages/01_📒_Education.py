@@ -14,6 +14,7 @@ def main():
     education_page.add_logo()
     st.title("Education")   
     education_page.write_itemize_html()
+    education_page.add_socials()
 
 if __name__ == "__main__":
     main()

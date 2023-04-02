@@ -10,6 +10,7 @@ def main():
     home_page.add_logo()
     home_page.add_signature()
     home_page.add_intro()
+    home_page.add_socials()
 
 if __name__ == "__main__":
     main()
