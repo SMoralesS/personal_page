@@ -9,10 +9,18 @@ ul {
   }
   
   .title {
-    display: block;
-    font-size: 104px;
+    display: inline-block;
+    font-size: 24px;
     font-weight: bold;
     color: #333;
+    width: 600px;
+  }
+
+  .date {
+    flex: 1 0 100%;
+    font-size: 14px;
+    color: #888;
+    text-align: right;
   }
   
   .info {
@@ -33,12 +41,5 @@ ul {
     margin-bottom: 5px;
     font-size: 14px;
     color: #777;
-  }
-  
-  .date {
-    flex: 1 0 100%;
-    font-size: 14px;
-    color: #888;
-    text-align: right;
   }
   

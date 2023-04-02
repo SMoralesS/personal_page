@@ -1,9 +1,11 @@
 import json
+from re import I
 
 import streamlit as st
 from typing import Union
+
 from utils.utils import local_css
-from Home import HomePage
+from utils.home_page import HomePage
 
 class ItemizePage(HomePage):
     def __init__(self, data_path: str, title: Union[str, None] = None):
@@ -24,14 +26,20 @@ class ItemizePage(HomePage):
         for item in self.itemize_data:
             text += "<li>"
             text += f"<span class=\"title\">{item.get('title')}</span>"
+            text += f"<span class=\"date\">{item.get('from_date')} - {item.get('to_date')}</span>"
             text += f"<div class=\"info\">"
-            text += f"<span class=\"date\">{item.get('from_date')} - {item.get('to_date')}</span><br>"
-            text += f"<span class=\"company\"><a href=\"{item.get('institution_url', '#')}\">{item.get('institution', '')}</a></span>.<br>"
+            if "scholarship" in item.keys():
+                text += f"<span>Scholarship: {item.get('scholarship')}<br></span>"
+            text += f"<span class=\"company\"><a href=\"{item.get('institution_url', '#')}\">{item.get('institution', '')}</a></span><br>"
             if "thesis" in item.keys():
                 text += f"<span>Thesis: {item.get('thesis')}<br></span>"
+            if "description" in item.keys():
+                text += f"<p>{item.get('description')}<br></p><br>"
+            if "tools" in item.keys():
+                text += f"<p>Tools Used: {item.get('tools')}<br></p><br>"
             text += f"<span class=\"location\">{item.get('location')}</span>"
             text += "</div>"
             text += "</li><br>"
         text += "</ul>"
 
-        st.components.v1.html(text, height=16000)
+        st.write(text, unsafe_allow_html=True)

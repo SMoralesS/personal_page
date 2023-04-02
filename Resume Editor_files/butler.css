@@ -1,0 +1,112 @@
+@font-face {
+    font-family: 'ButlerBlack';
+        src: url('/assets/fonts/butler/ca89f1ad2b010d6d7f7430ef1ae41973/7797713384091e6cac80daf5b147e10b/ButlerBlack.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+      }
+
+@font-face {
+    font-family: 'ButlerBold';
+        src: url('/assets/fonts/butler/ca89f1ad2b010d6d7f7430ef1ae41973/bb20bd82505e606d2271e1aa308d62f2/ButlerBold.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+      }
+
+@font-face {
+    font-family: 'ButlerExtraBold';
+        src: url('/assets/fonts/butler/ca89f1ad2b010d6d7f7430ef1ae41973/769a70a64ce261474b03e9f9f19a917c/ButlerExtraBold.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+      }
+
+@font-face {
+    font-family: 'ButlerLight';
+        src: url('/assets/fonts/butler/ca89f1ad2b010d6d7f7430ef1ae41973/89498099657e20181336bb7169bb01b2/ButlerLight.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+      }
+
+@font-face {
+    font-family: 'ButlerMedium';
+        src: url('/assets/fonts/butler/ca89f1ad2b010d6d7f7430ef1ae41973/fbda348653745b3db7e2b87cd1a141fe/ButlerMedium.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+      }
+
+@font-face {
+    font-family: 'ButlerRegular';
+        src: url('/assets/fonts/butler/ca89f1ad2b010d6d7f7430ef1ae41973/1c93a638b28bc696fe31a5e9ca1e18df/ButlerRegular.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+      }
+
+@font-face {
+    font-family: 'ButlerUltraLight';
+        src: url('/assets/fonts/butler/ca89f1ad2b010d6d7f7430ef1ae41973/47903a19cdb1dc8bea2c17cd70e81121/ButlerUltraLight.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+      }
+
+ /* The following rules are deprecated. */ 
+
+@font-face {
+    font-family: 'Butler';
+        src: url('/assets/fonts/butler/ca89f1ad2b010d6d7f7430ef1ae41973/7797713384091e6cac80daf5b147e10b/ButlerBlack.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+      }
+
+
+
+@font-face {
+    font-family: 'Butler';
+        src: url('/assets/fonts/butler/ca89f1ad2b010d6d7f7430ef1ae41973/bb20bd82505e606d2271e1aa308d62f2/ButlerBold.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+      }
+
+
+
+@font-face {
+    font-family: 'Butler';
+        src: url('/assets/fonts/butler/ca89f1ad2b010d6d7f7430ef1ae41973/769a70a64ce261474b03e9f9f19a917c/ButlerExtraBold.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+      }
+
+
+
+@font-face {
+    font-family: 'Butler';
+        src: url('/assets/fonts/butler/ca89f1ad2b010d6d7f7430ef1ae41973/89498099657e20181336bb7169bb01b2/ButlerLight.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+      }
+
+
+
+@font-face {
+    font-family: 'Butler';
+        src: url('/assets/fonts/butler/ca89f1ad2b010d6d7f7430ef1ae41973/fbda348653745b3db7e2b87cd1a141fe/ButlerMedium.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+      }
+
+
+
+@font-face {
+    font-family: 'Butler';
+        src: url('/assets/fonts/butler/ca89f1ad2b010d6d7f7430ef1ae41973/1c93a638b28bc696fe31a5e9ca1e18df/ButlerRegular.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+      }
+
+
+
+@font-face {
+    font-family: 'Butler';
+        src: url('/assets/fonts/butler/ca89f1ad2b010d6d7f7430ef1ae41973/47903a19cdb1dc8bea2c17cd70e81121/ButlerUltraLight.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+      }
+
